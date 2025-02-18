@@ -1,0 +1,145 @@
+.genre {
+	display:inline-block;
+	margin:5px;
+	margin-left:20px;
+	background-color:#010121;
+	cursor:pointer;
+
+}
+.srchpt {
+	display:inline-flex;
+	background-color:#1f1f7f;
+	color:white;
+	height:50px;
+	margin-top:25px;
+	position: relative;
+    z-index: 1;
+	
+}
+* {
+	color:white;
+	font-size:40px;
+	border-radius:15px;
+}
+body {
+	background-color:purple;
+}
+.search {
+	display:flex;
+	justify-content:center;
+	background-color:#11005f;
+	height:120px;
+	margin-bottom:30px;
+	margin-left:200px;
+	margin-top:10px;
+}
+.genres {
+	display:flex;
+	justify-self:right;
+	margin-right:80px;
+	background-color:#11005f;
+	padding:0px;
+}
+#imageiconthing {
+	margin-right:70px;
+	margin-left:5px;
+	margin-top:40px;
+
+	height:30px;
+	cursor:pointer;
+}
+.sub {
+	display:flex;
+	width:160px;
+	font-size:25px;
+	margin:5px;
+	justify-self:center;
+	margin-left:20px;
+	background-color:#010121;
+	cursor:pointer;
+
+}
+.subs {
+	margin-bottom:-450px;
+	margin-top:-120px;
+	background-color:#11005f;
+	width:170px;
+	height:560px;
+	padding:10px;
+}
+.icon {
+	margin-top:-120px;
+	background-color:#11005f;
+	width:160px;
+	height:40px;
+	text-align:center;
+	margin-bottom:70px;
+	margin-left:15px;
+}
+.mycil {
+	font-size:30px;
+	text-decoration:none;
+	position: relative;
+    z-index: 1;
+    vertical-align: 5px;
+
+}
+.row {
+	display:inline-flex;
+}
+.vidholder {
+	margin-top:300px;
+	background-color:#11005f;
+	height:600px;
+	border-radius:55px;
+
+
+}
+video {
+	width:860px;
+	height:420px;
+	background-color:#00002f;
+	border-radius:55px;
+
+}
+.vids {
+	margin-left:20px;
+	margin-top:-290px;
+	
+}
+.viddesc {
+	font-size:60px;
+	height:30px;
+	background-color:#010121;
+	margin-top:10px;
+
+}
+.rate {
+	width:60px;
+	display:inline;
+	margin:5px;
+
+	background-color:#000000;
+}                    
+.like-dislike {
+	display:flex;
+	padding:5px;
+	margin-top:-90px;
+	margin-left:700px;
+
+	width:120px;
+	height:60px;
+	background-color:#20207f;
+	position: relative;
+    z-index: 1;
+}
+img {
+	cursor:pointer;
+	transition: background-color 0.2s ease, margin 0.2s ease;
+}
+#like:hover {
+	margin:7px;
+}
+#dislike:hover {
+	margin:7px;
+}

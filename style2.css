@@ -1,0 +1,23 @@
+body {
+	background-color:black;
+}
+
+
+
+
+div {
+	width:50px;
+	height:800px;
+	display:flex-inline;
+	justify-self:center;
+	background-color:purple;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+	margin-top:-20px;
+	transition: height 3s ease, width 3s ease;
+}
+div:hover {
+	height:10px;
+	width:250px;
+
+}
